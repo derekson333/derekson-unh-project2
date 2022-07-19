@@ -8,11 +8,11 @@
 
 body {
     background-color: #d9dcd6;
+    font-family: 'Trebuchet MS', 'Lucida Sans', Arial, sans-serif;
 }
 
 .header {
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans', Arial, sans-serif;
     background-color: #0c087b;
     color: #d9dcd6;
     ;
@@ -38,7 +38,6 @@ body {
     float: top;
     float: right;
     color:#d9dcd6;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
@@ -61,21 +60,49 @@ body {
 }
 
 .about-me {
+    display:flex;
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans', Arial, sans-serif;
-    background-color: #3d3c5e;
-    color: #ffffff;
+    color:#0c087b;
 }
 
 .about-me h2 {
     font-size: 32px;
 }
 
+.work {
+    display:flex;
+    padding: 20px;
+    color:#0c087b;
+}
 
+.work h2 {
+    font-size: 32px;
+}
 
+.work div {
+    display: flex;
+}
+
+.work ul {
+    display: flex;
+}
+
+.contact-me {
+    display:flex;
+    padding: 20px;
+    color:#0c087b;
+}
+
+.contact-me h2 {
+    font-size: 32px;
+}
 
 /* makes links at bottom of page appear as normal text */
 .contact-me a {
     text-decoration: none;
     color:#0c087b;
+}
+
+.contact-me div {
+    
 }
