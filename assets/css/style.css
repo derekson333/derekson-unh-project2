@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body {
+    background-color: #d9dcd6;
+}
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans', Arial, sans-serif;
+    background-color: #0c087b;
+    color: #d9dcd6;
+    ;
+}
+
+.header h1 {
+    display: inline-block;
+    background-color: #d9dcd6;
+    color: #0c087b;
+    font-size: 48px;
+}
+
+/* Makes links at top of page appear as normal text */
+.header a {
+    text-decoration: none;
+    color:#d9dcd6
+}
+
+.header div {
+    display:flex;
+    padding: 15px;
+    margin-right: 20px;
+    float: top;
+    float: right;
+    color:#d9dcd6;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header div ul {
+    list-style-type: none;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.lake {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/Lakeshore.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.about-me {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans', Arial, sans-serif;
+    background-color: #3d3c5e;
+    color: #ffffff;
+}
+
+.about-me h2 {
+    font-size: 32px;
+}
+
+
+
+
+/* makes links at bottom of page appear as normal text */
+.contact-me a {
+    text-decoration: none;
+    color:#0c087b;
+}
